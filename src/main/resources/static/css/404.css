@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+body{
+	font-family:Candal;
+	background:url('https://wallpaperscraft.com/image/desert_drought_dead_lake_stone_mountains_46692_3840x2400.jpg');
+	background-size:cover;
+	filter:sepia(20%);
+	margin:0;
+	
+}
+body:after{
+content: "";
+width:100vw;
+height:100vh;
+	top:0px;
+background: linear-gradient(to bottom, #ffffff, #bf6e4e);
+position: absolute;
+opacity:0.5;
+display: inline-block;
+}
+
+.text{
+  color:rgb(249, 249, 251);
+	opacity:0.5;
+	font-size:4rem;
+	margin:auto;
+	text-align:center;
+	
+	#sub{
+		font-size:2rem;
+		color:white;
+		margin-top:-100px;
+		opacity:1;
+	}
+}
